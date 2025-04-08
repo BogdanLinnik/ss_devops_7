@@ -11,3 +11,5 @@ ARG REACT_APP_PORT
 ENV REACT_APP_PORT=${REACT_APP_PORT}
 
 RUN npm run build
+
+CMD ["npm", "start"]
