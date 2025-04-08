@@ -15,6 +15,6 @@ services:
     plan: free
     envVars:
       - key: REACT_APP_BASE_URL
-        value: https://json-server.onrender.com
+        value: https://json-server-5qjw.onrender.com
       - key: REACT_APP_PORT
         value: 4000
