@@ -3,9 +3,6 @@ import axios from "axios";
 const BASE_URL = `${process.env.REACT_APP_BASE_URL}:${process.env.REACT_APP_PORT}`;
 
 export async function getProducts() {
-  console.log('url', process.env.REACT_APP_BASE_URL);
-  console.log('port', process.env.REACT_APP_PORT);
-  console.log('BASE_URL', BASE_URL);
   const response = await axios.get(`${BASE_URL}/products`);
   return response.data;
 }
